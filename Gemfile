@@ -16,6 +16,10 @@ group :production do
 	gem 'pg'
 end
 
+group :production do
+  gem 'therubyracer'
+end
+      
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
 
