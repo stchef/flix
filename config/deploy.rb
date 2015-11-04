@@ -5,7 +5,7 @@ set :repository,  "git@github.com:stchef/Movie.git"
 set :scm, :git # You can set :scm explicitly or Capistrano will make an intelligent guess based on known version control directory names
 set :user, "Movie"
 set :user_sudo, false
-set :deploy_to, "/home/Movie/apps/Movie}"
+set :deploy_to, "/home/Movie/apps/#{application}"
 set :keep_releases, 5
 default_run_options[:shell] = '/bin/bash --login'
 
